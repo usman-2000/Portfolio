@@ -1,0 +1,27 @@
+/* #services .service-bottom .service-items{
+    flex-basis: 22%;
+    margin: 1.5%;
+} */
+
+#header .hamburger{
+    display: none;
+}
+
+#header .nav-list ul{
+    position: inherit;
+    display: block;
+    height: auto;
+    width: fit-content;
+    background-color: transparent;
+}
+
+#header .nav-list ul a::after{
+    display: none;
+}
+
+#header .navbar ul li{
+    display: inline-block;
+}
+#header .navbar ul li a{
+    font-size: 1.7rem;
+}
